@@ -5,45 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css"> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <section class="min-vh-100" style="background-color: darkseagreen;">
-       <div class="container pt-5">
-           <div class="row">
-               <div class="col-4" style="background-color: deepskyblue;"> 
-                    <div class="card" style="width: 18rem;">
-                        <h5 class="card-title">card-title</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, eveniet quo officia, quaerat accusamus tempore ut ipsam reiciendis praesentium non facere porro quod. Reiciendis error odit soluta molestiae voluptas illum! </p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-               <div class="col-4" style="background-color: firebrick;"> <h2>col-4</h2></div>
-               <div class="col-4" style="background-color: white;"> <h2>col-4</h2></div>
+<section class="min-vh-100" style="background-color: burlywood;">
+<div class="row">
+    <div class="min-vh-100 col-3" style="background-color:deepskyblue;">
+        <div class="row">
+            <div class="col4 mt-5">
+                <img src="./assets/img/profile.jpg" class="rounded-circle"style="display: block; margin: auto; margin-right: auto; width: 60%;">
+            </div>
+            <div class="col8 mt-3" style="background-color: white;">
+                <ul class="nav flex-column" id="list" data-target = "list">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#education" style="text-align: center;">การศึกษา</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#skill" style="text-align: center;">ทักษะ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#list-item-3" style="text-align: center; ">ประกาศนียบัตร</a>
+                    </li>
+                  </ul>
+            </div>
+
            </div>
-           <div class="row mt-5">
-               <div class="col-6" style="background-color: palevioletred;"><h2>col-3</h2></div>
-               <div class="col-4" style="background-color: purple;"><h2>col-6</h2></div>
-               <div class="col-2" style="background-color: salmon;"><h2>col-3</h2></div>
+    </div>
+    <div class="col-9">
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Link with href
+            </a>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              Button with data-target
+            </button>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
             </div>
-            <div class="row mt-5">
-                <div class="col-8" style="background-color: thistle;">
-                    <div class="row">
-                        <div class="col-6" style="background-color: red;"><h2>col-6</h2></div>
-                        <div class="col-6" style="background-color: yellow;"><h2>col-6</h2></div>
-                    </div>
-                    <h2>col-8</h2>
-                </div>
-                <div class="col-4" style="background-color: violet;"><h2>col-4</h2></div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-sm-6 col-md-3 col-lg-8 col-xl-2" style="background-color: yellow;"><h2>col-sm-6 col-md-3 col-lg-8 col-xl-2</h2></div>
-                <div class="col-sm-6 col-md-9 col-lg-9 col-xl-10" style="background-color: turquoise;"><h2>col-sm-6</h2></div>
-            </div>
-            
-       </div>
+          </div>
         
-    </section>
+    </div>
+</div>
+</section>
 </body>
 </html>
